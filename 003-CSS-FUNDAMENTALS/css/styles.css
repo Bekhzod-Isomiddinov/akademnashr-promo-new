@@ -1,7 +1,30 @@
-
 body {
-    font-size: 15px;
-    line-height: 25px;
-    font-family: "Open Sans", "Arial", sans-serif;
-    color: darkcyan ;
+    font-family: "Arial", serif;
+    color: black;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.child {
+    width: 300px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.child-green {
+    background-color: green;
+}
+
+.child-gray {
+    background-color: lightgray;
+}
+
+.child-red {
+    background-color: red;
 }
