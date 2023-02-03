@@ -1,60 +1,27 @@
 body {
     font-family: "Arial", serif;
-    color: black;
-}
-
-.parent {
-    display: flex;
-    background-color: lightblue;
-}
-
-.child {
-    width: 300px;
-}
-
-.child-green {
-    background-color: green;
-}
-
-.child-green:hover {
-    background-color: aquamarine;
-}
-
-.child-gray {
-    background-color: lightgray;
-}
-
-.child-gray:hover {
-    background-color: rgb(122, 119, 119);
-}
-
-.child-red {
-    background-color: red;
-}
-
-.child-red:hover {
-    background-color:coral;
-}
-
-.demo-test-link {
-    background-color: black;
-    color: white;
-    text-decoration: none;
-}
-
-.demo-test-link:hover {
-    background-color: gold;
+    font-size: 16px;
+    line-height: 1.5;
     color: #222;
 }
 
-.demo-test-link:active {
-    background-color: rgba(255, 217, 0, 0.5);
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    background-color: lightblue;
+    transition: font-size 0.4s ease,
+        background-color 0.4s ease,
+        color 0.4s ease;
+
 }
 
-.demo-test-link:focus {
-    background-color: orangered;
-}
+.box:hover {
+    font-size: 48px;
+    background-color: lightgreen;
+    color: #fff;
 
-a:visited {
-    color: grey;
 }
