@@ -44,8 +44,17 @@ letter-spacing: 0.5px;
   .sitenav-list {
     display: flex;
     padding: 0;
-
+    margin: 0;
+    margin-right: 32px;
     list-style: none;
+  }
+
+  .sitenav-item {
+    margin: 32px;
+  }
+
+  .sitenav-item:last-child {
+    margin: 0;
   }
 
   .sitenav-link {
@@ -113,10 +122,14 @@ letter-spacing: 0.5px;
     width: 390px;
   }
 
+
+
   .orange-line {
    width: 80px;
    height: 3px;
    border: none;
+   margin: 0;
+   margin-bottom: 40px;
    background-color: #ff7500;
   }
 
@@ -127,6 +140,8 @@ letter-spacing: 0.5px;
   }
 
   .hero-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
     font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -135,12 +150,22 @@ letter-spacing: 0.5px;
     color: white;
   }
 
+  .hero-text {
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+
 
 
   /* FEATURES */
   .feature {
     padding-top: 210px;
     padding-bottom: 210px;
+    margin-right: 40px;
+  }
+
+  .feature:last-child {
+    margin-right: 0;
   }
 
   .features-heading {
@@ -148,6 +173,8 @@ letter-spacing: 0.5px;
     font-style: normal;
     font-weight: 700;
     width: 440px;
+    margin-top: 0;
+    margin-bottom: 72px;
     font-size: 72px;
     line-height: 1.2;
     letter-spacing: 0.5px;
@@ -155,10 +182,11 @@ letter-spacing: 0.5px;
   }
 
   .feautures-list {
+    margin: 0;
     display: flex;
     list-style: none;
     padding: 0 ;
-    justify-content: space-between;
+
   }
 
 
@@ -206,6 +234,8 @@ letter-spacing: 0.5px;
   }
 
   .promo-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
     font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -213,6 +243,20 @@ letter-spacing: 0.5px;
     line-height: 120%;
     color: #FFFFFF;
   }
+
+  .promo-info-wrapper {
+    margin-bottom: 24px;
+  }
+
+  .promo-text {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+
+  .promo-text:last-child {
+    margin-bottom: 0;
+  }
+
 
 
 
@@ -251,6 +295,15 @@ letter-spacing: 0.5px;
     display: flex;
     align-items: center;
     padding: 0;
+    margin: 0;
+  }
+
+  .site-footer-social li {
+    margin-right: 16px;
+  }
+
+  .site-footer-social li:last-child {
+    margin-right: 0;
   }
 
   .site-footer-social a {
@@ -269,6 +322,8 @@ letter-spacing: 0.5px;
   .site-footer-divider {
     height: 2px;
     border: 0;
+    margin-top: 40px;
+    margin-bottom: 64px;
     background-color: rgba(37, 36, 32, 0.5);
   }
 
@@ -279,8 +334,15 @@ letter-spacing: 0.5px;
   .site-footer-links {
     line-height: 19px;
     width: 224px;
+    margin: 0;
+    margin-right: 68px;
+    padding: 0;
+    list-style: none;
   }
 
+  .site-footer-links:last-child {
+    margin-right: 0;
+  }
 
   .site-footer-links a {
     font-style: normal;
