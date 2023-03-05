@@ -34,6 +34,11 @@ letter-spacing: 0.5px;
     opacity: 0.6;
   }
 
+  .logo-link img {
+    display: block;
+  }
+
+
 .site-header-action {
   display: flex;
   align-items: center;
@@ -310,6 +315,7 @@ letter-spacing: 0.5px;
     color: #252420;
     padding: 0;
   }
+
 
   .site-footer-social a:hover {
     color: #FF7500;
